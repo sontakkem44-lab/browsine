@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Travel and Tourism</title>
+
+<style>
+
+body{
+font-family: Arial;
+margin:0;
+background:#f0f8ff;
+}
+
+header{
+background:#008080;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+nav{
+background:#333;
+padding:10px;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:15px;
+text-decoration:none;
+font-weight:bold;
+}
+
+section{
+padding:20px;
+}
+
+.container{
+display:flex;
+flex-wrap:wrap;
+justify-content:space-around;
+}
+
+.card{
+width:300px;
+background:white;
+border-radius:10px;
+box-shadow:0 0 10px gray;
+margin:15px;
+padding:10px;
+text-align:center;
+}
+
+.card img{
+width:100%;
+height:200px;
+border-radius:10px;
+}
+
+.package{
+background:#e6f2ff;
+padding:15px;
+margin:10px;
+border-radius:10px;
+}
+
+form{
+background:white;
+padding:20px;
+width:300px;
+margin:auto;
+border-radius:10px;
+box-shadow:0 0 10px gray;
+}
+
+input,select,textarea{
+width:100%;
+padding:8px;
+margin:5px 0;
+}
+
+button{
+background:#008080;
+color:white;
+border:none;
+padding:10px;
+width:100%;
+cursor:pointer;
+}
+
+footer{
+background:#333;
+color:white;
+text-align:center;
+padding:10px;
+margin-top:20px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Travel and Tourism</h1>
+<p>Explore Beautiful Places Around the World</p>
+</header>
+
+<nav>
+<a href="#">Home</a>
+<a href="#dest">Destinations</a>
+<a href="#pack">Packages</a>
+<a href="#book">Booking</a>
+</nav>
+
+<section id="dest">
+<h2>Popular Tourist Destinations</h2>
+
+<div class="container">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e">
+<h3>Goa</h3>
+<p>Goa is famous for its beaches, nightlife and Portuguese culture.</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1548013146-72479768bada">
+<h3>Taj Mahal</h3>
+<p>The Taj Mahal in Agra is one of the seven wonders of the world.</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470">
+<h3>Manali</h3>
+<p>Manali is a beautiful hill station known for snow mountains.</p>
+</div>
+
+</div>
+</section>
+
+<section id="pack">
+
+<h2>Travel Packages</h2>
+
+<div class="package">
+<h3>Goa Package</h3>
+<p>3 Days / 2 Nights – Beach stay and sightseeing.</p>
+</div>
+
+<div class="package">
+<h3>Manali Package</h3>
+<p>4 Days / 3 Nights – Snow adventure and trekking.</p>
+</div>
+
+<div class="package">
+<h3>Agra Package</h3>
+<p>2 Days / 1 Night – Taj Mahal tour.</p>
+</div>
+
+</section>
+
+<section id="book">
+
+<h2 align="center">Booking / Enquiry Form</h2>
+
+<form>
+
+<label>Name</label>
+<input type="text" required>
+
+<label>Email</label>
+<input type="email" required>
+
+<label>Phone</label>
+<input type="tel" required>
+
+<label>Select Destination</label>
+<select>
+<option>Goa</option>
+<option>Manali</option>
+<option>Agra</option>
+</select>
+
+<label>Message</label>
+<textarea rows="4"></textarea>
+
+<button type="submit">Submit</button>
+
+</form>
+
+</section>
+
+<footer>
+<p>© 2026 Travel and Tourism Website</p>
+</footer>
+
+</body>
+</html>
